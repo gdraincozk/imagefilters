@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-serif text-center text-[#313647]">
+
+<!--Header-->
+    <div class="p-10 bg-[#8A784E] text-2xl font-bold">
+        <p>Tailwind Image Filters</p>
+    </div>
+<!--Body-->
+    <div class="bg-[#E7EFC7] p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+        <div class="bg-[#FFFDF6] flex-col p-5 rounded-lg border-2 border-[#313647] mb-10 shadow-lg">
+            <img src="./tailwindimg.jpg" alt="originalimg" title="Original Img" class="h-[300px] rounded-lg">
+            <p class="pt-3 text-sm font-bold">Original</p>
+        </div>
+
+        <div class="bg-[#FFFDF6] flex-col p-5 rounded-lg border-2 border-[#313647] mb-10 shadow-lg">
+            <img src="./tailwindimg.jpg" alt="grayscaleimg" title="Grayscale" class="h-[300px] rounded-lg grayscale">
+            <p class="pt-3 text-sm font-bold">Grayscale</p>
+        </div>
+
+        <div class="bg-[#FFFDF6] flex-col p-5 rounded-lg border-2 border-[#313647] mb-10 shadow-lg">
+            <img src="./tailwindimg.jpg" alt="blurimg" title="Blur" class="h-[300px] rounded-lg blur">
+            <p class="pt-3 text-sm font-bold">Blur</p>
+        </div>
+
+        <div class="bg-[#FFFDF6] flex-col p-5 rounded-lg border-2 border-[#313647] mb-10 shadow-lg">
+            <img src="./tailwindimg.jpg" alt="brightnessimg" title="Brightness" class="h-[300px] rounded-lg brightness-50">
+            <p class="pt-3 text-sm font-bold">Brightness</p>
+        </div>
+
+        <div class="bg-[#FFFDF6] flex-col p-5 rounded-lg border-2 border-[#313647] mb-10 shadow-lg">
+            <img src="./tailwindimg.jpg" alt="contastimg" title="Contrast" class="h-[300px] rounded-lg contrast-150">
+            <p class="pt-3 text-sm font-bold">Contrast</p>
+        </div>
+
+        <div class="bg-[#FFFDF6] flex-col p-5 rounded-lg border-2 border-[#313647] mb-10 shadow-lg">
+            <img src="./tailwindimg.jpg" alt="sepiaimg" title="Sepia" class="h-[300px] rounded-lg sepia">
+            <p class="pt-3 text-sm font-bold">Sepia</p>
+        </div>
+    </div>
+
+<!--Footer-->
+    <div class="p-5 bg-[#8A784E]">
+        <p class="text-sm">Final Activity | Thank You po! Sir Allen - Domantay, Rain</p>
+    </div>
+</body>
+</html>
